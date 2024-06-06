@@ -18,14 +18,12 @@
 
     <title>GoGroceries - Barang</title>
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts -->
     <link href="Assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
     <link href="Assets/css/sb-admin-2.min.css" rel="stylesheet" />
-
-    <!-- Custom styles for this page -->
     <link href="Assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" />
 
     <!-- icon -->
@@ -210,7 +208,7 @@
                             <td><?= $result['nama_lokasi'] ?></td>
                             <td><?= $result['stok'] ?></td>
                             <td>
-                              <a href="admin-editbarang.php?update=<?= $result['id_barang']; ?>" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Edit">
+                              <a href="barang.php?update=<?= $result['id_barang']; ?>" class="btn btn-primary btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Edit">
                                 <i class="fas fa-fw fa-pen"></i>
                               </a>
                               <span class="mr-1"></span>
@@ -333,7 +331,7 @@
             >
               Cancel
             </button>
-            <a class="btn btn-primary" href="login-page.php">Logout</a>
+            <a class="btn btn-primary" href="login.php">Logout</a>
           </div>
         </div>
       </div>

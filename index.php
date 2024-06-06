@@ -31,11 +31,11 @@
 
     <title>GoGroceries - Dashboard</title>
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts -->
     <link href="Assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
     <link href="Assets/css/sb-admin-2.min.css" rel="stylesheet" />
 
     <!-- icon -->
@@ -278,7 +278,7 @@
                       <h5 class="m-0 font-weight-bold text-success">
                         Data Barang
                       </h5>
-                      <a class="m-0 font-weight-bold text-primary no-effect" href="admin-barang.php">
+                      <a class="m-0 font-weight-bold text-primary no-effect" href="barang.php">
                         <span>Lihat Semua</span>
                         <i class="fas fa-fw fa-angle-double-right"></i>
                       </a>
@@ -372,7 +372,7 @@
             >
               Cancel
             </button>
-            <a class="btn btn-primary" href="login-page.php">Logout</a>
+            <a class="btn btn-primary" href="login.php">Logout</a>
           </div>
         </div>
       </div>
