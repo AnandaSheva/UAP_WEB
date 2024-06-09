@@ -210,7 +210,7 @@
                         <i class="fas fa-plus fa-sm text-white-100 mr-2"></i>
                         Tambah Data
                     </a>
-                    <a href="" target="_blank" class="mr-1 d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                    <a href="print.php" class="mr-1 d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                         <i class="fas fa-print fa-sm text-white-100 ms-1"></i>&nbsp;
                         Print Laporan 
                     </a>
