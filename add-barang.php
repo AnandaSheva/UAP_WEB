@@ -228,7 +228,7 @@
                     
 
                     <button type="submit" name="btn-simpan" class="btn btn-success mt-4">Simpan</button>
-                    <button type="submit" name="btn-simpan" class="btn btn-secondary mt-4" onclick="back()">Batal</button>
+                    <a href="barang.php" class="btn btn-secondary mt-4">Kembali</a>
                   </form>
 
                   <?php
@@ -339,12 +339,6 @@
         </div>
       </div>
     </div>
-
-    <script>
-    function back() {
-        window.history.back();
-    }
-    </script>
 
     <!-- Bootstrap core JavaScript-->
     <script src="Assets/vendor/jquery/jquery.min.js"></script>

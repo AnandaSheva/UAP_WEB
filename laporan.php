@@ -54,6 +54,9 @@
 
     <!-- sweetalert2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- DataTables CSS -->
+  <link href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -219,11 +222,10 @@
               <div class="card-body">
                 <div class="table-responsive">
                   <table
-                    class="table table-borderless"
+                    class="table"
                     id="dataTable"
                     width="100%"
-                    cellspacing="0"
-                  >
+                    cellspacing="0">
                     <thead class="thead-light">
                         <tr>
                             <th>ID Barang</th>
@@ -376,6 +378,7 @@
       </div>
     </div>
 
+
     <!-- Bootstrap core JavaScript-->
     <script src="Assets/vendor/jquery/jquery.min.js"></script>
     <script src="Assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -394,6 +397,8 @@
     <script src="Assets/js/demo/datatables-demo.js"></script>
 </body>
 </html>
+
+
 
 <?php 
   if(isset($_POST['btn-hapus'])) {

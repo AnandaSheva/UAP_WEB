@@ -371,7 +371,7 @@
       <script>
         Swal.fire({
           title: "Berhasil!",
-          text: "Data Barang Masuk Berhasil Dihapus!",
+          text: "Data Stok Masuk Berhasil Dihapus!",
           icon: "success"
         }).then(function() {
           window.location.href = 'stokmasuk.php';
@@ -386,7 +386,7 @@
       <script>
         Swal.fire({
           title: "Gagal!",
-          text: "Data Barang Masuk Gagal Dihapus!",
+          text: "Data Stok Masuk Gagal Dihapus!",
           icon: "error"
         }).then(function() {
           window.location.href = 'stokmasuk.php';

@@ -238,7 +238,7 @@
                     
 
                     <button type="submit" name="btn-simpan" class="btn btn-success mt-4">Simpan</button>
-                    <button type="submit" name="btn-simpan" class="btn btn-secondary mt-4" onclick="back()">Batal</button>
+                    <a href="pegawai.php" class="btn btn-secondary mt-4">Kembali</a>
                   </form>
 
                   <?php

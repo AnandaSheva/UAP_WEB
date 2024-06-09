@@ -224,8 +224,8 @@
                         </select>
                     </div>
                     
-
                     <button type="submit" name="btn-simpan" class="btn btn-success mt-4">Simpan</button>
+                    <a href="barang.php" class="btn btn-secondary mt-4">Kembali</a>
                   </form>
 
                   <?php
@@ -246,7 +246,7 @@
                         <script>
                           Swal.fire({
                             title: "Berhasil!",
-                            text: "Data Barang Berhasil Diubah!",
+                            text: "Data Stok Masuk Berhasil Diubah!",
                             icon: "success"
                           }).then(function() {
                              window.location.href = 'barang.php';
@@ -261,7 +261,7 @@
                         <script>
                           Swal.fire({
                             title: "Gagal!",
-                            text: "Data Barang Gagal Diubah!",
+                            text: "Data Stok Keluar Gagal Diubah!",
                             icon: "error"
                           }).then(function() {
                              window.location.href = 'barang.php';

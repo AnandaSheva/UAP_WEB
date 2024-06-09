@@ -194,7 +194,7 @@
                     <thead class="thead-light">
                         <tr>
                             <th>ID Pegawai</th>
-                            <th>Nama Pegawai</th>
+                            <th>Nama</th>
                             <th>Alamat</th>
                             <th>No Telepon</th>
                             <th>Jenis Kelamin</th>
@@ -221,7 +221,7 @@
                               </a>
                             </td>
                         </tr>
-
+        
                         <!-- Hapus Barang Modal-->
                         <div
                           class="modal fade"
@@ -229,8 +229,7 @@
                           tabindex="-1"
                           role="dialog"
                           aria-labelledby="exampleModalLabel"
-                          aria-hidden="true"
-                        >
+                          aria-hidden="true">
                           <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                               <div class="modal-header">
@@ -255,15 +254,13 @@
                                   <button
                                     class="btn btn-secondary"
                                     type="button"
-                                    data-dismiss="modal"
-                                  >
+                                    data-dismiss="modal">
                                     Cancel
                                   </button>
                                   <button 
                                     type="submit" 
                                     name="btn-hapus" 
-                                    class="btn btn-danger"
-                                  >
+                                    class="btn btn-danger">
                                     Ya, Hapus Pegawai
                                   </button>
                                 </div>
@@ -372,7 +369,7 @@
       <script>
         Swal.fire({
           title: "Berhasil!",
-          text: "Data Barang Berhasil Dihapus!",
+          text: "Data Pegawai Berhasil Dihapus!",
           icon: "success"
         }).then(function() {
           window.location.href = 'pegawai.php';
@@ -387,7 +384,7 @@
       <script>
         Swal.fire({
           title: "Gagal!",
-          text: "Data Barang Gagal Dihapus!",
+          text: "Data Pegawai Gagal Dihapus!",
           icon: "error"
         }).then(function() {
           window.location.href = 'pegawai.php';

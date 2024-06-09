@@ -205,11 +205,12 @@
 
                     <div class="form-group">
                         <label for="jumlah_barang">Jumlah Stok Keluar <i class="fas fa-star-of-life" style="font-size: 7px; vertical-align: top; color: #ED2939"></i></label>
-                        <input type="text" class="form-control shadow-sm" id="jumlah_barang" name="jumlah_barang" required>
+                        <input type="number" class="form-control w-25 shadow-sm" id="jumlah_barang" name="jumlah_barang" required>
                     </div>
                     
 
                     <button type="submit" name="btn-simpan" class="btn btn-success mt-4">Simpan</button>
+                    <a href="stokkeluar.php" class="btn btn-secondary mt-4">Kembali</a>
                   </form>
 
                   <?php
@@ -226,7 +227,7 @@
                         <script>
                           Swal.fire({
                             title: "Berhasil!",
-                            text: "Data Barang Keluar Berhasil Ditambahkan!",
+                            text: "Data Stok Keluar Berhasil Ditambahkan!",
                             icon: "success"
                           }).then(function() {
                              window.location.href = 'stokkeluar.php'; // Redirect after the user clicks "OK"
@@ -241,7 +242,7 @@
                         <script>
                           Swal.fire({
                             title: "Gagal!",
-                            text: "Data Barang Keluar Gagal Ditambahkan!",
+                            text: "Data Stok Keluar Gagal Ditambahkan!",
                             icon: "error"
                           }).then(function() {
                              window.location.href = 'stokkeluar.php'; // Redirect after the user clicks "OK"
