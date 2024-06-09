@@ -231,9 +231,9 @@
                             <th>ID Barang</th>
                             <th>Nama Barang</th>
                             <th>Jenis Barang</th>
-                            <th>Stock In</th>
-                            <th>Stock Out</th>
-                            <th>Stock Akhir</th>
+                            <th>Stok Masuk</th>
+                            <th>Stok Keluar</th>
+                            <th>Stok Akhir</th>
                             <th>Lokasi Barang</th>
                             <th>Action</th>
 
