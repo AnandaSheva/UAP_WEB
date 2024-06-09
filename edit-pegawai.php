@@ -261,7 +261,7 @@
                         <script>
                           Swal.fire({
                             title: "Berhasil!",
-                            text: "Data Barang Berhasil Diubah!",
+                            text: "Data Pegawai Berhasil Diubah!",
                             icon: "success"
                           }).then(function() {
                              window.location.href = 'pegawai.php';
@@ -276,7 +276,7 @@
                         <script>
                           Swal.fire({
                             title: "Gagal!",
-                            text: "Data Barang Gagal Diubah!",
+                            text: "Data Pegawai Gagal Diubah!",
                             icon: "error"
                           }).then(function() {
                              window.location.href = 'pegawai.php';
