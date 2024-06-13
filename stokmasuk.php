@@ -190,7 +190,7 @@
               <div class="card-body">
                 <div class="table-responsive">
                   <table
-                    class="table table-borderless"
+                    class="table"
                     id="dataTable"
                     width="100%"
                     cellspacing="0"

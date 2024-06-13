@@ -277,7 +277,7 @@
               <div class="card-header py-3">
                 <div class="d-sm-flex align-items-center justify-content-between">
                       <h5 class="m-0 font-weight-bold text-success">
-                        Data Barang
+                        Data Barang Sembako
                       </h5>
                       <a class="m-0 font-weight-bold text-primary no-effect" href="barang.php">
                         <span>Lihat Semua</span>
